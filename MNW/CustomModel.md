@@ -16,3 +16,5 @@
         asset->SetResPath(fullPath.c_str());
         GetMetaLoader().CreateAssetAndMeta(guid, asset);
     }
+
+    UgcAssetMgr::UploadFBXModel(std::string fbxName)
